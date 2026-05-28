@@ -4,7 +4,7 @@ A collection of Bash scripts for managing a local secure vault — storing secre
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 secure_vault/
