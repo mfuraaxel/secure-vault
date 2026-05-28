@@ -81,7 +81,7 @@ Permissions: 640
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Unix/Linux or macOS environment
 - Bash 4+
