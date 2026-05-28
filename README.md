@@ -1,4 +1,4 @@
-# 🔐 Secure Vault
+# Secure Vault
 
 A collection of Bash scripts for managing a local secure vault — storing secrets, logging activity, auditing file permissions, and controlling access on a Unix/Linux system.
 
@@ -16,7 +16,7 @@ secure_vault/
 
 ---
 
-## 📜 Scripts
+## Scripts
 
 ### 1. `setup_vault.sh` — Initialize the Vault
 Sets up the secure vault directory and creates the three core files (`keys.txt`, `secrets.txt`, `logs.txt`) with welcome messages.
@@ -89,7 +89,7 @@ Permissions: 640
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # 1. Initialize the vault
@@ -107,7 +107,7 @@ bash audit_vault.sh
 
 ---
 
-## 🔒 Security Notes
+## Security Notes
 
 - `keys.txt` is restricted to owner-only access (`600`) by default
 - Any file with permissions above `644` will trigger a warning in the audit report
